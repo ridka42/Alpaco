@@ -7,5 +7,5 @@
 > 여기는 1레벨 들여쓰기 
 > > 여기는 2레벨 들여쓰기
 
-[google](https://google.com,"google's link")
+[google] (https://google.com, "google's link")
 
