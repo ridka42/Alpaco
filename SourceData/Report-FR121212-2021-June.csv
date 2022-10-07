@@ -1,0 +1,5 @@
+InvoiceNumber,Item,Amount,Tax,Total,Currency,Date
+299004,"Various paper supplies",190318,38063.6,228382,USD,2017-06-26
+182003,"IT Support",147494,29498.8,176993,EUR,2017-06-20
+181903,"Beverages and Catering",134252,26850.4,161102,USD,2017-06-12
+798018,"Concierge Services",190456,38091.2,228547,RON,2017-06-19
