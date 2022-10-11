@@ -1,78 +1,46 @@
 # KS_Monthly_Invoice
-> 간략한 프로젝트 소개 문구를 작성합니다.
+> ACME에 업로드 된 월별 인보이스 엑셀 파일을 다운로드하여 정합성 검증을 수행하는 프로세스
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
 
-한 두 문단으로 프로젝트 소개 글을 작성합니다.
+월별 인보이스 엑셀 파일을 수기로 검토 가능하도록 월별 폴더로 보존한다.
+임의의 특정 월에 대해서만 검증 수행될 수 있도록 분기처리 한다.
+RPA 수행한 결과에 따라 각각 분기 처리하여 이메일을 전송한다.
+
 
 ![](../header.png)
 
 ## 설치 방법
 
-OS X & 리눅스:
+Uipath:
 
 ```sh
-npm install my-crazy-module --save
+https://www.uipath.com/
 ```
 
-윈도우:
-
-```sh
-edit autoexec.bat
-```
 
 ## 사용 예제
+![image](https://user-images.githubusercontent.com/114542921/195004773-4d587965-d36c-4904-9244-65fb8d3fb094.png)
+![image](https://user-images.githubusercontent.com/114542921/195005394-175663ac-0b75-4c0e-8f98-6b34590ed1c1.png)
+![image](https://user-images.githubusercontent.com/114542921/195005419-b74d8eba-f6e9-41aa-9d9e-861e3e182dd4.png)
 
-스크린 샷과 코드 예제를 통해 사용 방법을 자세히 설명합니다.
 
-_더 많은 예제와 사용법은 [Wiki][wiki]를 참고하세요._
+
 
 ## 개발 환경 설정
 
-모든 개발 의존성 설치 방법과 자동 테스트 슈트 실행 방법을 운영체제 별로 작성합니다.
+Config 파일의 Select_Month에 원하는 기간을 입력해주세요. <br>
+C 드라이브에 Result와 SourceData 폴더를 저장해 주세요
 
-```sh
-make install
-npm test
-```
+
 
 ## 업데이트 내역
 
-* 0.2.1
-    * 수정: 문서 업데이트 (모듈 코드 동일)
-* 0.2.0
-    * 수정: `setDefaultXYZ()` 메서드 제거
-    * 추가: `init()` 메서드 추가
-* 0.1.1
-    * 버그 수정: `baz()` 메서드 호출 시 부팅되지 않는 현상 (@컨트리뷰터 감사합니다!)
-* 0.1.0
-    * 첫 출시
-    * 수정: `foo()` 메서드 네이밍을 `bar()`로 수정
-* 0.0.1
-    * 작업 진행 중
+*
 
 ## 정보
 
-이름 – [@트위터 주소](https://twitter.com/dbader_org) – 이메일주소@example.com
+김민솔 – ridka4242@gmail.com
 
-XYZ 라이센스를 준수하며 ``LICENSE``에서 자세한 정보를 확인할 수 있습니다.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
 
-## 기여 방법
 
-1. (<https://github.com/yourname/yourproject/fork>)을 포크합니다.
-2. (`git checkout -b feature/fooBar`) 명령어로 새 브랜치를 만드세요.
-3. (`git commit -am 'Add some fooBar'`) 명령어로 커밋하세요.
-4. (`git push origin feature/fooBar`) 명령어로 브랜치에 푸시하세요. 
-5. 풀리퀘스트를 보내주세요.
-
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
