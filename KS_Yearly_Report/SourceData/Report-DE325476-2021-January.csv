@@ -1,0 +1,2 @@
+InvoiceNumber,Item,Date,Amount,Tax,Total,Currency
+910001,"Concierge Services",2017-01-01,1240,248,1488,RON

@@ -1,0 +1,5 @@
+InvoiceNumber,Item,Date,Amount,Tax,Total,Currency
+614591,"Waste management services",2017-01-11,11012,2202.4,13214.4,EUR
+496963,"IT Support",2017-01-05,112534,22506.8,135041,EUR
+369886,"Waste management services",2017-01-25,172229,34445.8,206675,USD
+277558,"IT Support",2017-01-13,211372,42274.4,253646,RON
