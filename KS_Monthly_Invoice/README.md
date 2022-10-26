@@ -19,7 +19,7 @@ https://www.uipath.com/
 
 
 ## 사용 예제
-![image](https://user-images.githubusercontent.com/114542921/195004773-4d587965-d36c-4904-9244-65fb8d3fb094.png)
+
 ![image](https://user-images.githubusercontent.com/114542921/195005394-175663ac-0b75-4c0e-8f98-6b34590ed1c1.png)
 ![image](https://user-images.githubusercontent.com/114542921/195005419-b74d8eba-f6e9-41aa-9d9e-861e3e182dd4.png)
 
