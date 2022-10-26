@@ -21,7 +21,6 @@ https://www.uipath.com/
 
 
 ## 사용 예제
-![image](https://user-images.githubusercontent.com/114542921/195006094-18ef947e-4dde-4101-87b0-bb4bed307194.png)
 ![image](https://user-images.githubusercontent.com/114542921/195006123-1b8336c7-ba44-447a-8986-d4988953fab1.png)
 
 
